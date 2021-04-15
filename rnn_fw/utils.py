@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-dataset = pd.read_csv('R_four_states.csv')
+dataset = pd.read_csv('cases_four_states.csv')
 test_set_f = np.array(dataset.iloc[-16:310, 1:2])
 
 # making date as pandas date and setting as a index
